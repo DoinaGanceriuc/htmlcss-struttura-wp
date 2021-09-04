@@ -17,8 +17,52 @@ header {
   margin-top: 1rem;
 }
 
+main {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
+}
+
+.pretium {
+  height: 300px;
+  background-color: #e1d67a;
+}
+
+.leadership {
+  height: 50px;
+  background-color: #abcfe7;
+  margin-top: 1rem;
+}
+.paragrafi {
+  height: 400px;
+  background-color: #0086ff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.left-par,
+.middle-par,
+.right-par {
+  float: left;
+  height: 100%;
+  background-color: #abcfe7;
+}
+
+.left-par,
+.right-par {
+  width: 22%;
+}
+
+.left-par,
+.middle-par {
+  margin-right: 2%;
+}
+
+.middle-par {
+  width: 52%;
 }
